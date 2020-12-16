@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    :root {
+      --Dark-cyan:hsl(185, 75%, 39%);
+      --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+      --Dark-grayish-blue: hsl(227, 10%, 46%);
+      --Dark-gray: hsl(0, 0%, 59%)
+    }
+    
+    body {
+      font-family: 'Kumbh Sans', sans-serif;
+      background-color: var(--Dark-cyan);
+      font-size: 18px;
+    }
+    
+    .top-circle svg {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: translate(-25%, -50%);
+      width: auto;
+    }
+    
+    .bottom-circle svg {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: translate(75%, -100%);
+    }
+    
+    .card {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: translate(0%, -220%);
+      margin: auto;
+      width: 350px;
+      height: 350px;
+      background-color: #fff;
+      border-radius: 25px;
+      z-index: 1;
+    }
+    
+    .card .bg {
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+    
+    .card .person {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: translate(130%, -50%);
+      border-radius: 50%;
+    }
+    
+    .circle {
+      background-color: #fff;
+      width: 7rem;
+      height: 7rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(104%, 78%);
+      border-radius: 50%;
+    }
+    
+    .card .socials {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      transform: translate(0, -130%);
+    }
+    
+    .card .socials p {
+      margin: 0 auto;
+      font-weight: 700;
+    }
+
+    .card .socials p span {
+      font-weight: 400;
+      font-size: 10px;
+      color: var(--Dark-gray);
+    }
+
+    .card .intro {
+      text-align: center;
+      align-items: center;
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: translate(0, -80%);
+    }
+
+    .card .intro p {
+      font-weight: 700;
+    }
+
+    .card .intro p span {
+      color: var(--Dark-gray);
+    }
+
+    .card .intro .place {
+      font-size: 14px;
+      position: relative;
+      top: -10px;
+    }
+
+    hr {
+    border: none;
+    height: 0.5px;
+    color: rgb(193, 193, 193); 
+    background-color: rgb(194, 193, 193); 
+}
+  </style>
+</head>
+<body>
+  <div class="top-circle">
+    <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5"/></svg>
+  </div>
+  <div class="card">
+    <img src="./images/bg-pattern-card.svg" class="bg">
+    <div class="circle"></div>
+    <img src="./images/image-victor.jpg" class="person">
+    <div class="intro">
+      <p>Victor Crest&nbsp;<span>26</span></p>
+      <p><span class="place">London</span></p><hr>
+    </div>
+    <div class="socials">
+      <p>80K<br><span>Followers</span></p>
+      <p>803K<br><span>Likes</span></p>
+      <p>1.4K<br><span>Photos</span></p>
+    </div>
+  </div>
+  <div class="bottom-circle">
+    <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25"/></svg>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Amlana Pattnayak</a>.
+  </div>
+</body>
+</html>
