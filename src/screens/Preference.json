@@ -1,0 +1,52 @@
+[
+    {
+        "id":   0,
+        "key":  "Anime",
+        "checked":  false
+    },
+    {
+        "id":   1,
+        "key":  "Sports",
+        "checked":  false
+    },
+    {
+        "id":   2,
+        "key":  "Food",
+        "checked":  false
+    },
+    {
+        "id":   3,
+        "key":  "Travel",
+        "checked":  false
+    },
+    {
+        "id":   4,
+        "key":  "Gosspis",
+        "checked":  false
+    },
+    {
+        "id":   5,
+        "key":  "Cooking",
+        "checked":  false
+    },
+    {
+        "id":   6,
+        "key":  "Music",
+        "checked":  false
+    },
+    {
+        "id":   7,
+        "key":  "Books",
+        "checked":  false
+    },
+    {
+        "id":   8,
+        "key":  "Art & Crafts",
+        "checked":  false
+    },
+    {
+        "id":   9,
+        "key":  "Money",
+        "checked":  false
+    }
+]

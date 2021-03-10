@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Project Emmaa",
+    "slug": "project-emmaa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/images/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "React Native application for Project Emmaa. \n\nFeatures:\nSign-up, Sign-in page integrated with firebase.\nA bottom tab navigator with static profile page, fully functioning preference page and home page for uploading user image.",
+    "githubUrl": "https://github.com/Amlana-P/Project-Emmaa/tree/master"
+  }
+}
